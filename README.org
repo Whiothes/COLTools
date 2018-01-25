@@ -1,0 +1,15 @@
+#+SETUPFILE: ~/Templates/theme-readtheorg.setup
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LATEX_HEADER: \usepackage{ctex}
+
+
+#+TITLE: COLTOOLS
+* Introduction
+** features
+   - download assigned url which has tag *a* recursively
+   - convert html files into one txt file
+** Requirements
+   =pip3 install html2text=
+* Usage
+** Run
+   =python3 dhtml2text.py=
